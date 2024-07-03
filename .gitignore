@@ -1,0 +1,41 @@
+# General
+.DS_Store
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+*.iml
+*.log
+*.njsproj
+*.ntvs*
+*.sln
+*.suo
+*.swp
+*.vscode
+*~
+.idea
+.vscode
+
+# Tests
+test/**/coverage/
+test/**/*.xml
+test/**/report/
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# Cache
+.tmp/
+.sass-cache/
+*.tsbuildinfo
+
+# Config
+.env
+.env.*.local
+.envrc
+.direnv/
+
+storybook-static
