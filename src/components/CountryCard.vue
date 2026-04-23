@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <article class="card">
     <h2 class="name">{{ country.flag }}&nbsp;{{ country.name.common }}</h2>
     <p class="capital" v-if="country.capital">
       Capital: {{ country.capital[0] }}
@@ -11,7 +11,7 @@
       Borders: {{ formattedBorders }}
     </p>
     <button @click="focusMapOnThisCountry" class="focusBtn">Focus</button>
-  </div>
+  </article>
 </template>
 
 <script>
