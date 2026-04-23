@@ -1,5 +1,5 @@
 <template>
-  <div class="controls">
+  <header class="controls">
     <a href="https://www.kpler.com/" target="_blank">
       <img id="logo" src="../../public/logo.png" />
     </a>
@@ -22,7 +22,7 @@
     <div class="average-population">
       Average Population: {{ averagePopulation }}
     </div>
-  </div>
+  </header>
 </template>
 
 <script>

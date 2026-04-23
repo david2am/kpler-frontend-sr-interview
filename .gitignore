@@ -33,8 +33,7 @@ cypress/screenshots/
 *.tsbuildinfo
 
 # Config
-.env
-.env.*.local
+.env*
 .envrc
 .direnv/
 
