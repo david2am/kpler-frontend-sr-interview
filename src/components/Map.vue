@@ -31,8 +31,7 @@ export default {
   },
   methods: {
     initializeMap() {
-      mapboxgl.accessToken =
-        "pk.eyJ1Ijoibmlrb2xhc3QiLCJhIjoiY2xxcXhnNHI0M20yOTJrbzRtcGRnZDNlcyJ9.ZYWTLGL3Nf2F9AhEdaKlsQ";
+      mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_ACCESS_TOKEN;
       this.map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/mapbox/streets-v11",
